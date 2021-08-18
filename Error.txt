@@ -1,0 +1,93 @@
+(CellGAN) noh@DL-BoxII:~/noh/CellGAN/DCGAN$ python DCGAN.py
+Random Seed:  999
+Traceback (most recent call last):
+  File "/home/noh/noh/CellGAN/DCGAN/DCGAN.py", line 62, in <module>
+    dataset = dset.ImageFolder(root=dataroot,
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torchvision/datasets/folder.py", line 226, in __init__
+    super(ImageFolder, self).__init__(root, loader, IMG_EXTENSIONS if is_valid_file is None else None,
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torchvision/datasets/folder.py", line 108, in __init__
+    classes, class_to_idx = self._find_classes(self.root)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torchvision/datasets/folder.py", line 137, in _find_classes
+    classes = [d.name for d in os.scandir(dir) if d.is_dir()]
+FileNotFoundError: [Errno 2] No such file or directory: 'data_gan/img_align_par1'
+
+(CellGAN) noh@DL-BoxII:~/noh/CellGAN/DCGAN$ python DCGAN.py
+Random Seed:  999
+Traceback (most recent call last):
+  File "/home/noh/noh/CellGAN/DCGAN/DCGAN.py", line 77, in <module>
+    real_batch = next(iter(dataloader))
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 435, in __next__
+    data = self._next_data()
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1085, in _next_data
+    return self._process_data(data)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1111, in _process_data
+    data.reraise()
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/_utils.py", line 428, in reraise
+    raise self.exc_type(msg)
+PIL.UnidentifiedImageError: Caught UnidentifiedImageError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/utils/data/_utils/worker.py", line 198, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torchvision/datasets/folder.py", line 151, in __getitem__
+    sample = self.loader(path)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torchvision/datasets/folder.py", line 188, in default_loader
+    return pil_loader(path)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torchvision/datasets/folder.py", line 169, in pil_loader
+    img = Image.open(f)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/PIL/Image.py", line 3023, in open
+    raise UnidentifiedImageError(
+PIL.UnidentifiedImageError: cannot identify image file <_io.BufferedReader name='data_gan/par1/img_align_par1/._par1b1_s_001.jpg'>
+
+Traceback (most recent call last):
+  File "/home/noh/noh/CellGAN/DCGAN/DCGAN.py", line 175, in <module>
+    netD = Discriminator(ngpu).to(device)
+  File "/home/noh/noh/CellGAN/DCGAN/DCGAN.py", line 147, in __init__
+    self.main = nn.Sequential(
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/nn/modules/container.py", line 67, in __init__
+    self.add_module(str(idx), module)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/nn/modules/module.py", line 344, in add_module
+    raise TypeError("{} is not a Module subclass".format(
+TypeError: torch.nn.modules.batchnorm.BatchNorm2d is not a Module subclass
+
+Traceback (most recent call last):
+  File "/home/noh/noh/CellGAN/DCGAN/DCGAN.py", line 175, in <module>
+    netD = Discriminator(ngpu).to(device)
+  File "/home/noh/noh/CellGAN/DCGAN/DCGAN.py", line 147, in __init__
+    self.main = nn.Sequential(
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/nn/modules/module.py", line 807, in __setattr__
+    raise AttributeError(
+AttributeError: cannot assign module before Module.__init__() call
+
+Starting Training Loop...
+[0/5][0/3]      Loss_D: 1.3854  Loss_G: 0.7110  D(x): 0.5009    D(G(z)): 0.5005 / 0.4912
+[1/5][0/3]      Loss_D: 1.2632  Loss_G: 0.7183  D(x): 0.5703    D(G(z)): 0.5037 / 0.4876
+[2/5][0/3]      Loss_D: 1.1374  Loss_G: 0.8037  D(x): 0.6244    D(G(z)): 0.4855 / 0.4477
+[3/5][0/3]      Loss_D: 0.9328  Loss_G: 1.0106  D(x): 0.6743    D(G(z)): 0.4152 / 0.3640
+[4/5][0/3]      Loss_D: 0.7132  Loss_G: 1.2442  D(x): 0.7230    D(G(z)): 0.3206 / 0.2882
+Segmentation fault
+
+changed the number of channel from 3 to 1.
+
+Starting Training Loop...
+Traceback (most recent call last):
+  File "/home/noh/noh/CellGAN/DCGAN/DCGAN.py", line 228, in <module>
+    output = netD(real_cpu).view(-1)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/noh/noh/CellGAN/DCGAN/DCGAN.py", line 175, in forward
+    return self.main(input)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 423, in forward
+    return self._conv_forward(input, self.weight)
+  File "/home/noh/anaconda3/envs/CellGAN/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 419, in _conv_forward
+    return F.conv2d(input, weight, self.bias, self.stride,
+RuntimeError: Given groups=1, weight of size [64, 1, 4, 4], expected input[128, 3, 64, 64] to have 1 channels, but got 3 channels instead

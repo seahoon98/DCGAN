@@ -1,0 +1,349 @@
+    1  ls
+    2  sudo apt-get update
+    3  ls
+    4  nvidia-smi
+    5  pip list
+    6  pip3 list
+    7  gnome-terminal & disown
+    8  gnome-terminal
+    9  python3 -v
+   10  python3 -m venv noh
+   11  apt-get install python3-venv
+   12  get install python3-venv
+   13  sudo install python3-venv
+   14  sudo get apt install python3-venv
+   15  apt-get install python3
+   16  sudo apt-get install python3-venv
+   17  python3 -m venv noh
+   18  sudo python3 -m venv noh
+   19  sudo apt-get install python3-venv
+   20  sudo apt-get update
+   21  route -n
+   22  cat /etc/resolv.conf
+   23  systemd-resolve --status
+   24  ip a
+   25  sudo lshw -class network
+   26  gnome-terminal
+   27  sudo apt-get install python3-venv
+   28  python3 -m venv noh
+   29  source noh/bin/activate
+   30  python -V
+   31  pip freeze
+   32  pip install torch==0.4.1
+   33  jupyter notebook
+   34  pwd
+   35  ls
+   36  cd noh
+   37  ls
+   38  cd noh/TechnicalAssitant_Workspace
+   39  pwd
+   40  ls
+   41  cd noh
+   42  ls
+   43  cd TechnicalAssistant_Workspace
+   44  ls
+   45  bash ./Anaconda3-2021.05-Linux-x86_64.sh
+   46  emacs
+   47  git stauts
+   48  git status
+   49  git --version
+   50  git config --global
+   51  git config --global user.name "Noh Seahoon"
+   52  git config --global user.name "seahoon98@gmail.com"
+   53  git config --list
+   54  git config --help 
+   55  git help config
+   56  git init
+   57  ls -la
+   58  rm -rf. git
+   59  rm -rf .git
+   60  ls -la
+   61  git init
+   62  ls
+   63  ls -la
+   64  cd noh
+   65  ls
+   66  cd Technical*
+   67  git -init
+   68  git init
+   69  ls -la
+   70  git status
+   71  touch .gitignore
+   72  cat .gitignore
+   73  ls
+   74  ls -la
+   75  emacs .gitignore
+   76  git status
+   77  git add -A
+   78  git add .gitignore
+   79  git status
+   80  rm Anaconda3-2021.05*
+   81  ls
+   82  ls -la
+   83  rm #.gitignore*
+   84  rm #.gitignore#
+   85  git add -A
+   86  git status
+   87  git reset .gitignore
+   88  git status
+   89  git reset
+   90  git status
+   91  git add -A
+   92  git status
+   93  git commit -m "Initial Commit"
+   94  git status
+   95  git log
+   96  cd ..
+   97  mkdir Cloned-Repo
+   98  cd Cloned-Repo/
+   99  ls -la
+  100  git clone ../remote_repo.git .
+  101  ls ..
+  102  git clone ../pyvenv.cfg
+  103  cd ../TechnicalAssistant_Workspace
+  104  ls -la
+  105  cd ../Cloned-Repo
+  106  cd clone ../TechnicalAssistant_Workspace/.git
+  107  git clone ../TechnicalAssistant_Workspace/.git .
+  108  ls -la
+  109  git remote -v
+  110  git branch -a
+  111  git config --global color.ui auto
+  112  cd ../Tech*
+  113  ssh-keygen -t rsa -C "your_email@example.com"
+  114  ssh-keygen -t rsa -C "seahoon98@gmail.com"
+  115  ls -la
+  116  cat ~/.ssh/id_rsa.pub
+  117  history > history_210714.txt
+  118  ls
+  119  exit
+  120  conda activate
+  121  sudo snap install code --classic
+  122  jupyter notebook
+  123  sudo snap install code history > history_210714_anaconda.txt
+  124  history > history_210714_anaconda.txt
+  125  ls
+  126  mv history_210714_anaconda.txt /noh/TechnicalAssistant_Workspace
+  127  mv history_210714_anaconda.txt ./noh/TechnicalAssistant_Workspace
+  128  exit
+  129  source pytorch==1.9.0
+  130  source pytorch==1.9.0/bin/activate
+  131  source pytorch==1.9.0
+  132  vim
+  133  python version.py
+  134  source noh/bin/activate
+  135  pip install pytorch
+  136  pip install torch
+  137  pip install torchvision
+  138  vls
+  139  ls
+  140  vim version.py
+  141  python version.py
+  142  vim version.py
+  143  python VersionCheck.py
+  144  vim
+  145  python TorchTensor.py
+  146  vim TorchTensor.py
+  147  python TorchTensor.py
+  148  vim TorchTensor.py
+  149  python TorchTensor.py
+  150  vim TorchTensor.py
+  151  python TorchTensor.py
+  152  vim TorchTensor.py
+  153  python TorchTensor.py
+  154  vim TorchTensor.py
+  155  python TorchTensor.py
+  156  vim TorchTensor.py
+  157  python TorchTensor.py
+  158  vim TorchTensor.py
+  159  python TorchTensor.py
+  160  vim TorchTensor.py
+  161  python TorchTensor.py
+  162  vim TorchTensor.py
+  163  python TorchTensor.py
+  164  vim TorchTensor.py
+  165  python TorchTensor.py
+  166  vim TorchTensor.py
+  167  python TorchTensor.py
+  168  ls
+  169  history > ./noh/210719.txt
+  170  cat ./noh/210719.txt
+  171  SomeCommand > ./noh/210714_output.txt
+  172  pip install torch==0.4.1
+  173  pip install torch
+  174  python -m venv torch-1.9.0
+  175  source torch-1.9.0/bin/activate
+  176  pip install torch=1.9.0
+  177  pip install torch==1.9.0
+  178  python -v
+  179  pip install torchvision
+  180  vim
+  181  pwd
+  182  ls
+  183  cd ./noh
+  184  ls
+  185  vim 210719
+  186  vim 210719.txt
+  187  source noh/bin/active
+  188  vim 210719.txt
+  189  source noh/bin/activate
+  190  cd 
+  191  source noh/bin/acativate
+  192  source noh/bin/activate
+  193  ls
+  194  mkdir noh/IdeaFactory
+  195  cd noh/IdeaFactory
+  196  ls
+  197  vim
+  198  python3 linear_regression.py
+  199  vim linear_regression.py
+  200  python3 linear_regression.py
+  201  pip install matplotlib
+  202  python3 linear_regression.py
+  203  vim linear_regression.py
+  204  python3 linear_regression.py
+  205  vim linear_regression.py
+  206  python3 linear_regression.py
+  207  vim linear_regression.py
+  208  python3 linear_regression.py
+  209  vim linear_regression.py
+  210  python3 linear_regression.py
+  211  vim linear_regression.py
+  212  python3 linear_regression.py
+  213  vim linear_regression.py
+  214  python3 linear_regression.py
+  215* 
+  216  python3 linear_regression.py
+  217  vim linear_regression.py
+  218  python3 linear_regression.py
+  219  vim linear_regression.py
+  220  python3 linear_regression.py
+  221  vim linear_regression.py
+  222  python3 linear_regression.py
+  223  vim linear_regression.py
+  224  python3 linear_regression.py
+  225  vim linear_regression.py
+  226  python3 linear_regression.py
+  227  vim linear_regression.py
+  228  python3 linear_regression.py
+  229  vim linear_regression.py
+  230  python3 linear_regression.py
+  231  vim linear_regression.py
+  232  python3 linear_regression.py
+  233  vim linear_regression.py
+  234  python3 linear_regression.py
+  235  vim linear_regression.py
+  236  python3 linear_regression.py
+  237  vim linear_regression.py
+  238  python3 linear_regression.py
+  239  vim linear_regression.py
+  240  python3 linear_regression.py
+  241  vim linear_regression.py
+  242  python3 linear_regression.py
+  243* 
+  244  ls
+  245  vim linear_regression.txt
+  246  python3 linear_regression.py
+  247  vim linear_regression.txt
+  248  rm linear_regression.txt
+  249  vim linear_regression.txt
+  250  vim linear_regression.py
+  251  python3 linear_regression.py
+  252  vim linear_regression.py
+  253  python3 linear_regression.py > weight_cost.txt
+  254  vim weight_cost.txt
+  255  vim linear_regression.py
+  256  vim weight_cost.txt
+  257  python3 linear_regression.py
+  258  vim linear_regression.py
+  259  python3 linear_regression.py
+  260  vim linear_regression.py
+  261  python3 linear_regression.py
+  262  vim linear_regression.py
+  263  python3 linear_regression.py
+  264  vim linear_regression.py
+  265  python3 linear_regression.py
+  266  vim linear_regression.py
+  267  python3 linear_regression.py
+  268  vim linear_regression.py
+  269* py
+  270  vim linear_regression.py
+  271  python3 linear_regression.py
+  272  vim linear_regression.py
+  273  python3 linear_regression.py
+  274  vim linear_regression.py
+  275  python3 linear_regression.py
+  276  vim linear_regression.py
+  277  python3 linear_regression.py
+  278  vim linear_regression.py
+  279  python3 linear_regression.py
+  280  vim linear_regression.py
+  281  python3 linear_regression.py
+  282  vim linear_regression.py
+  283  python3 linear_regression.py
+  284  vim linear_regression.py
+  285  python3 linear_regression.py
+  286  vim linear_regression.py
+  287  python3 linear_regression.py
+  288  vim linear_regression.py
+  289  python3 linear_regression.py
+  290  viewer
+  291  ./viwer
+  292  vim linear_regression.py
+  293* ./viwer[B
+  294  python3 linear_regression.py
+  295  vim linear_regression.py
+  296  python3 linear_regression.py
+  297  vim linear_regression.py
+  298  python3 linear_regression.py
+  299  vim linear_regression.py
+  300  python3 linear_regression.py
+  301  vim linear_regression.py
+  302  python3 linear_regression.py
+  303  vim linear_regression.py
+  304  python3 linear_regression.py
+  305  vim linear_regression.py
+  306  python3 linear_regression.py
+  307  python3 linear_regression.py > Error_Partial.csv
+  308  vim Error_Partial.csv
+  309  vim linear_regression.py
+  310  python3 linear_regression.py > Error_Partial.csv
+  311  vim linear_regression.py
+  312  python3 linear_regression.py > Error_Partial.csv
+  313  gnuplot
+  314  ls
+  315  mkdir linear_regression
+  316  mv Error_Partial.csv linear_regression
+  317* mv linear_regression.py & weight_cost.txt linear_regressio
+  318  mv --help
+  319  mv linear_regression.py linear_regression
+  320  mv weight_cost.txt linear_regression
+  321  tar -zcvf 210721.tar.gz linear_regression
+  322* 
+  323  vim linear_regression.py
+  324  ls
+  325  cd linear_regression
+  326  vim linear_regression.py
+  327  cd ..
+  328  cd ../..
+  329  ls
+  330  mv TorchTensor.py noh
+  331  mv VersionCheck.py noh
+  332  vim version.py
+  333  rm version.py
+  334  cd noh
+  335  mkdir CellGAN
+  336  mv TorchTensor.py CellGAN
+  337  mv VersionCheck.py CellGAN
+  338  cd CellGAN
+  339  vim 
+  340  ls
+  341  python3 pytorch02_network_basics.py
+  342  vim pytorch02_network_basics.py
+  343  python3 pytorch02_network_basics.py
+  344  vim pytorch02_network_basics.py
+  345  python3 pytorch02_network_basics.py
+  346  vim pytorch02_network_basics.py
+  347  python3 pytorch02_network_basics.py
+  348  vim pytorch02_network_basics.py
+  349  history > 210720.txt
